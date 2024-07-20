@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Button from './Button';
+import Todo from './Todo';
+import Form from './Form';
+import CustomImageShape from './CustomImageShape';
+import Appbar from './components/Appbar';
+import About from './components/About';
+import Table from './components/Table';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <header> This is header
-        <nav>
-          <a href = "https://www.google.com" target='_blank'>News</a>
-          <a href = "#">Trending</a>
-          <a href = "#">Blog</a>
-          <a href = "#">About</a>
-        </nav>
-      </header>
+      <Counter/>
     </div>
   );
 }
