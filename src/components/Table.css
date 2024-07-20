@@ -1,0 +1,68 @@
+.Main{
+    border: 4px solid rgb(117, 121, 167);
+    padding: 12px;
+    display: inline-block;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: azure;
+}
+.Column{
+    padding: 14px;
+    border: 4px solid hotpink;
+    letter-spacing: 4px;
+}
+.Element{
+    padding: 14px;
+    display: block;
+    border: 4px solid green;
+}
+th,td,tr{
+    padding: 12px;
+    word-spacing: 12px;
+    border-color: #96D4D4;
+}
+.Needle{
+    margin: 100px;
+    height: 150px;
+    width: 150px;
+    transform: rotateX(80deg) rotateZ(45deg);
+    background-image: linear-gradient(to top left, #555 0%, #555 40%, #444 50%, #333 97%);
+    box-shadow: inset 6px 6px 22px 8px #272727;
+}
+.Title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    perspective-origin: 50% 50%;
+    perspective: 300px;
+}
+.Title h1{
+    text-align: center;
+    font-size: 12vmin;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 0,0.8);
+    line-height: 1em;
+    transform: rotateY(50deg);
+    perspective: 150px;
+    perspective-origin: 0% 50%;
+}
+.Title h1::after{
+    content: attr(data-content);
+    position:absolute;
+    left:0;top:0;
+    transform-origin:50% 100%;
+    transform:rotateX(-90deg);
+    color:#0099CC;
+}
+.Title::before{
+    content:'';
+    position:absolute;
+    top:-150%; left:-25%;
+    width:180%; height:328%;
+    background:rgba(69, 2, 124, 0.866);
+    transform-origin: 0 100%;
+    transform: translatez(-200px) rotate(40deg) skewX(35deg);
+     border-radius:0 0 100% 0;
+}
