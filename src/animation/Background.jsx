@@ -5,7 +5,7 @@ const Background = ()=>{
         <>
         <div style={{
              width : "100vw",
-             height : "300px",
+             height : "100px",
              border : "2px solid blue",
              alignContent : "center",
              /**For example, this creates a linear gradient that starts from the right and transitions from #2f095b to #065551 */
@@ -15,7 +15,7 @@ const Background = ()=>{
         </div>
         <div style={{
              width : "100vw",
-             height : "300px",
+             height : "100px",
              border : "2px solid blue",
              alignContent : "center",
              /**For example, this creates a linear gradient that starts from the left and transitions from #2f095b to #065551 */
@@ -25,7 +25,7 @@ const Background = ()=>{
         </div>
         <div style={{
              width : "100vw",
-             height : "300px",
+             height : "100px",
              border : "2px solid blue",
              textAlign : "center",
              alignContent : "center",
@@ -37,7 +37,7 @@ const Background = ()=>{
         </div>
         <div style={{
              width : "100vw",
-             height : "300px",
+             height : "100px",
              border : "2px solid blue",
              alignContent : "center",
     
@@ -48,7 +48,7 @@ const Background = ()=>{
         </div>
         <div style={{
              width : "100vw",
-             height : "300px",
+             height : "100px",
              border : "2px solid blue",
              textAlign : "center",
              alignContent : "center",
@@ -59,7 +59,7 @@ const Background = ()=>{
         </div>
         <div style={{
             width : "100vw",
-            height : "300px",
+            height : "100px",
             border : "2px solid blue",
             textAlign : "center",
             alignContent : "center",
@@ -70,7 +70,7 @@ const Background = ()=>{
         </div>
         <div style={{
             width : "100vw",
-            height : "300px",
+            height : "100px",
             border : "2px solid blue",
             textAlign : "center",
             alignContent : "center",
