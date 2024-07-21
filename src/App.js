@@ -8,10 +8,11 @@ import Appbar from './components/Appbar';
 import About from './components/About';
 import Table from './components/Table';
 import Counter from './components/Counter';
+import Background from './animation/Background';
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      <Background/>
     </div>
   );
 }
